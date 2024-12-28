@@ -2,71 +2,76 @@
 
 <template>
   <main>
-    <div class="banner_content">
-      <div class="popular_one">
-        <h1>Популярные категории</h1>
-        <a href="#">
-          <img src="@/assets/img/phone.svg" alt="phone" />
-          <span>Телефоны и планшеты</span>
-        </a>
-        <a href="#">
-          <img src="@/assets/img/phone.svg" alt="phone" />
-          <span>Телефоны и планшеты</span>
-        </a>
-        <a href="#">
-          <img src="@/assets/img/phone.svg" alt="phone" />
-          <span>Телефоны и планшеты</span>
-        </a>
-        <a href="#">
-          <img src="@/assets/img/phone.svg" alt="phone" />
-          <span>Телефоны и планшеты</span>
-        </a>
-        <a href="#">
-          <img src="@/assets/img/phone.svg" alt="phone" />
-          <span>Телефоны и планшеты</span>
-        </a>
-        <a href="#">
-          <img src="@/assets/img/phone.svg" alt="phone" />
-          <span>Телефоны и планшеты</span>
-        </a>
-        <a href="#">
-          <img src="@/assets/img/phone.svg" alt="phone" />
-          <span>Телефоны и планшеты</span>
-        </a>
-        <a href="#">
-          <img src="@/assets/img/phone.svg" alt="phone" />
-          <span>Телефоны и планшеты</span>
-        </a>
-        <a href="#">
-          <img src="@/assets/img/phone.svg" alt="phone" />
-          <span>Телефоны и планшеты</span>
-        </a>
-        <a href="#">
-          <img src="@/assets/img/phone.svg" alt="phone" />
-          <span>Телефоны и планшеты</span>
-        </a>
-      </div>
-      <div class="popular_two">
-        <a href="#">
-          <img src="@/assets/img/percent.svg" alt="percent" />
-          <span>Уцененные товары</span>
-        </a>
-      </div>
-      <div class="commercial">
-        <img src="@/assets/img/commercial.svg" alt="commercial" />
-      </div>
-      <div class="promotion">
-        <h1>Акции</h1>
-        <div>
-          <img src="@/assets/img/boom.svg" alt="boom" />
-          <p>До окончания акции: 18:12:41</p>
+    <div class="main_content">
+      <div class="left">
+        <div class="left_one">
+          <h2>Популярные категории</h2>
+          <a href="#">
+            <img src="@/assets/img/phone.svg" alt="phone" />
+            <span>Телефоны и планшеты</span>
+          </a>
+          <a href="#">
+            <img src="@/assets/img/phone.svg" alt="phone" />
+            <span>Телефоны и планшеты</span>
+          </a>
+          <a href="#">
+            <img src="@/assets/img/phone.svg" alt="phone" />
+            <span>Телефоны и планшеты</span>
+          </a>
+          <a href="#">
+            <img src="@/assets/img/phone.svg" alt="phone" />
+            <span>Телефоны и планшеты</span>
+          </a>
+          <a href="#">
+            <img src="@/assets/img/phone.svg" alt="phone" />
+            <span>Телефоны и планшеты</span>
+          </a>
+          <a href="#">
+            <img src="@/assets/img/phone.svg" alt="phone" />
+            <span>Телефоны и планшеты</span>
+          </a>
+          <a href="#">
+            <img src="@/assets/img/phone.svg" alt="phone" />
+            <span>Телефоны и планшеты</span>
+          </a>
+          <a href="#">
+            <img src="@/assets/img/phone.svg" alt="phone" />
+            <span>Телефоны и планшеты</span>
+          </a>
+          <a href="#">
+            <img src="@/assets/img/phone.svg" alt="phone" />
+            <span>Телефоны и планшеты</span>
+          </a>
+          <a href="#">
+            <img src="@/assets/img/phone.svg" alt="phone" />
+            <span>Телефоны и планшеты</span>
+          </a>
         </div>
-        <div>
-          <img src="@/assets/img/liquidation.svg" alt="liquidation" />
-          <p>До окончания акции: 18:12:41</p>
+        <div class="left_two">
+          <a href="#">
+            <img src="@/assets/img/percent.svg" alt="percent" />
+            <span>Уцененные товары</span>
+          </a>
         </div>
-        <img src="@/assets/img/ivan.svg" alt="ivan" />
-        <p>До окончания акции: 18:12:41</p>
+      </div>
+      <div class="right">
+        <div class="banner">
+          <img src="@/assets/img/commercial.svg" alt="commercial" />
+        </div>
+        <div class="ivan_and_co">
+          <div class="uno">
+            <img src="@/assets/img/boom.svg" alt="boom" />
+            <p>До окончании акции: 18:12:41</p>
+          </div>
+          <div class="dos">
+            <img src="@/assets/img/liquidation.svg" alt="liquidation" />
+            <p>До окончании акции: 18:12:41</p>
+          </div>
+          <div class="tres">
+            <img src="@/assets/img/ivan.svg" alt="ivan" />
+            <p>До окончании акции: 18:12:41</p>
+          </div>
+        </div>
       </div>
     </div>
   </main>
